@@ -19,5 +19,4 @@ public class Alumno {
     private String nombre;
     @Min(12)
     private Integer edad;
-
 }
