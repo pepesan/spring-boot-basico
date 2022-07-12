@@ -1,0 +1,19 @@
+---
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:~/test2
+    username: sa
+    password: ""
+  h2:
+    console:
+      # URL de acceso a la consola
+      path: /h2
+      #Habilitar la consola web de H2
+      enabled: true
+  jpa:
+    hibernate:
+      # Hibernate ddl auto (create, create-drop, validate, update)
+      ddl-auto: update
+
+...
